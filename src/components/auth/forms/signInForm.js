@@ -16,7 +16,7 @@ export const createSignInForm = () => {
     <form name="signInForm">
       <input type="text" name="email" />
       <input type="text" name="password" />
-      <span class="errorIn"></span>
+      <span class="error"></span>
       <button type="submit">SignIn</button>
     </form>`;
   refs.signInForm = document.forms.signInForm;
